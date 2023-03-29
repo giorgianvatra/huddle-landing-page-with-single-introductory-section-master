@@ -9,7 +9,7 @@ body {
 
 @media (max-width: 650px) {
   body {
-    background: url(./images/bg-mobile.svg) no-repeat top;
+    background: url(bg-mobile.svg) no-repeat top;
     background-size: contain;
     background-color: hsl(257, 40%, 49%);
     padding: 3rem;
@@ -30,7 +30,7 @@ body {
   .left-section {
     width: 500px;
     height: 350px;
-    background: url(./images/illustration-mockups.svg) no-repeat;
+    background: url(illustration-mockups.svg) no-repeat;
     background-size: contain;
   }
   .right-section {
@@ -96,7 +96,7 @@ body {
     gap: 6rem;
     justify-content: space-around;
     padding-top: 4.5rem;
-    background: url(./images/bg-desktop.svg) no-repeat top;
+    background: url(bg-desktop.svg) no-repeat top;
     background-size: contain;
     background-color: hsl(257, 40%, 49%);
     position: absolute;
@@ -112,7 +112,7 @@ body {
   .left-section {
     width: 70%;
     height: 65vh;
-    background: url(./images/illustration-mockups.svg) no-repeat center center;
+    background: url(illustration-mockups.svg) no-repeat center center;
     background-size: contain;
     position: relative;
     top: 19vh
