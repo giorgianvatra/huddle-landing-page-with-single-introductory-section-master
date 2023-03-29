@@ -9,7 +9,7 @@ body {
 
 @media (max-width: 650px) {
   body {
-    background: url(bg-mobile.svg) no-repeat top;
+    background: url(./images/bg-mobile.svg) no-repeat top;
     background-size: contain;
     background-color: hsl(257, 40%, 49%);
     padding: 3rem;
@@ -30,7 +30,7 @@ body {
   .left-section {
     width: 500px;
     height: 350px;
-    background: url(illustration-mockups.svg) no-repeat;
+    background: url(./images/illustration-mockups.svg) no-repeat;
     background-size: contain;
   }
   .right-section {
@@ -90,13 +90,13 @@ body {
   }
 
   .container {
-    width: 1440px;
-    height: 65vh;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     gap: 6rem;
     justify-content: space-around;
     padding-top: 4.5rem;
-    background: url(bg-desktop.svg) no-repeat top;
+    background: url(./images/bg-desktop.svg) no-repeat top;
     background-size: contain;
     background-color: hsl(257, 40%, 49%);
     position: absolute;
@@ -106,13 +106,16 @@ body {
     padding: 3rem;
   }
   .logo {
-    width: 175px;
+    width: 175px;position: absolute; 
+    top: -19vh; 
   }
   .left-section {
-    width: 60%;
+    width: 70%;
     height: 65vh;
-    background: url(illustration-mockups.svg) no-repeat center center;
+    background: url(./images/illustration-mockups.svg) no-repeat center center;
     background-size: contain;
+    position: relative;
+    top: 19vh
   }
   .right-section {
     display: flex;
@@ -126,14 +129,15 @@ body {
     justify-content: flex-start;
     width: 40%;
     height: 60%;
+    top: 30vh; 
    
   }
   .title {
     font-family: "Poppins", sans-serif;
-    font-size: 2rem;
+    font-size: 3rem;
   }
   .description {
-    font-size: 0.95rem;
+    font-size: 1.2rem;
     padding-bottom: 1rem;
   }
   button {
@@ -161,7 +165,7 @@ body {
     position: relative;
     width: 35px;
     height: 35px;
-    top: 7rem;
+    top: 7vh; 
     
   }
   i {
